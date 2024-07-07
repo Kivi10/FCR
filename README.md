@@ -9,24 +9,25 @@
 ослы), а затем объединить их. Просмотреть содержимое созданного файла.
 Переименовать файл, дав ему новое имя (Друзья человека).
 
-![Task 1](https://github.com/Kivi10/FCR/blob/master/images/image-1.png)
+![Task 1](https://github.com/Kivi10/FCR/blob/master/images/image.png)
 
 2. Создать директорию, переместить файл туда.
 
-![Task 2](https://user-images.githubusercontent.com/99810114/221401198-5f035f3b-dabb-425a-ae4a-b273822b26bc.jpg)
+![Task 2](https://github.com/Kivi10/FCR/blob/master/images/image-1.png)
 
 3. Подключить дополнительный репозиторий MySQL. Установить любой пакет
 из этого репозитория.
 
-![Task 3](https://user-images.githubusercontent.com/99810114/221401204-319e6e99-7b30-4da1-a0ca-db5d821146c8.jpg)
-![Task 4](https://user-images.githubusercontent.com/99810114/221401211-7563ea97-23dc-4f39-807a-fc6e4a68b598.jpg)
+![Task 3](https://github.com/Kivi10/FCR/blob/master/images/image-2.png)
+![Task 3](https://github.com/Kivi10/FCR/blob/master/images/image-3.png)
 
 4. Установить и удалить deb-пакет с помощью dpkg.
 
-![Task 5](https://user-images.githubusercontent.com/99810114/221401222-7d436e91-2fdd-4389-8a95-c6ebc7e26300.jpg)
+![Task 4](https://github.com/Kivi10/FCR/blob/master/images/image-4.png)
 
-5. Выложить [историю команд](https://github.com/ILYA-NASA/Kennel_account_system/blob/main/HistoryCommandsUbuntuTerminal.md) в терминале ubuntu
-6. Нарисовать [диаграмму](https://github.com/ILYA-NASA/Kennel_account_system/blob/main/UML.drawio), в которой есть класс родительский класс, домашние
+5. Выложить [историю команд](https://github.com/Kivi10/FCR/blob/master/images/image-5.png) в терминале ubuntu
+
+7. Нарисовать [диаграмму](https://github.com/Kivi10/FCR/blob/master/images/image-6.png), в которой есть класс родительский класс, домашние
 животные и вьючные животные, в составы которых в случае домашних
 животных войдут классы: собаки, кошки, хомяки, а в класс вьючные животные
 войдут: Лошади, верблюды и ослы).
@@ -229,15 +230,15 @@ LEFT JOIN yang_animal ya ON ya.Name = hm.Name
 LEFT JOIN home_animals ha ON ha.Id = hm.Genus_id;
 ```
 
-13. Создать [класс с Инкапсуляцией методов и наследованием по диаграмме](https://github.com/ILYA-NASA/Kennel_account_system/tree/main/System/src/Model).
-14. Написать [программу, имитирующую работу реестра домашних животных](https://github.com/ILYA-NASA/Kennel_account_system/tree/main/System/src).
+13. Создать [класс с Инкапсуляцией методов и наследованием по диаграмме](https://github.com/Kivi10/FCR/tree/master/System/src/Model).
+14. Написать [программу, имитирующую работу реестра домашних животных](https://github.com/Kivi10/FCR/tree/master/System/src).
 В программе должен быть реализован следующий функционал:    
 	14.1 Завести новое животное    
 	14.2 определять животное в правильный класс    
 	14.3 увидеть список команд, которое выполняет животное    
 	14.4 обучить животное новым командам    
 	14.5 Реализовать навигацию по меню    
-15. Создайте [класс Счетчик](https://github.com/ILYA-NASA/Kennel_account_system/blob/main/System/src/Controller/Counter.java), у которого есть метод add(), увеличивающий̆
+15. Создайте [класс Счетчик](https://github.com/Kivi10/FCR/blob/master/System/src/Controller/Counter.java), у которого есть метод add(), увеличивающий̆
 значение внутренней̆ int переменной̆ на 1 при нажатии “Завести новое
 животное” Сделайте так, чтобы с объектом такого типа можно было работать в
 блоке try-with-resources. Нужно бросить исключение, если работа с объектом
